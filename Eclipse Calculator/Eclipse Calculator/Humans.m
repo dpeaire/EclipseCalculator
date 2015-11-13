@@ -34,7 +34,7 @@
 
 }
 
--(void)resourceAddition: (UIButton *)pink
+-(IBAction)resourceAddition
 {
     
     for (int i =0; i<10; i++) {

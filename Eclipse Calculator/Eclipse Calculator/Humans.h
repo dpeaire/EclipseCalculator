@@ -33,7 +33,9 @@ NSArray *resources;
 
 }
 
--(void)resourceAddition:(UIButton *)pink;
+-(IBAction)resourceAddition;
+
+
 -(void)buildInterceptor;
 -(void)buildCruiser;
 -(void)buildDreadnought;
