@@ -95,7 +95,7 @@
     
     int buildShip = build-3;
     if (build<3){[self buildAlert];return;}
-    pinkResource.text = [NSString stringWithFormat:@"%i",buildShip];
+    brownResource.text = [NSString stringWithFormat:@"%i",buildShip];
     build=buildShip;
     
     
@@ -106,7 +106,7 @@
     
     int buildShip = build-5;
     if (build<5){[self buildAlert];return;}
-    pinkResource.text = [NSString stringWithFormat:@"%i",buildShip];
+    brownResource.text = [NSString stringWithFormat:@"%i",buildShip];
     build=buildShip;
     
     
@@ -117,9 +117,18 @@
     
     int buildShip = build-8;
     if (build<8){[self buildAlert];return;}
-    pinkResource.text = [NSString stringWithFormat:@"%i",buildShip];
+    brownResource.text = [NSString stringWithFormat:@"%i",buildShip];
     build=buildShip;
     
+    
+}
+
+-(IBAction)buildStation
+{
+    int buildShip = build-3;
+    if (build<3){[self buildAlert];return;}
+    brownResource.text = [NSString stringWithFormat:@"%i",buildShip];
+    build=buildShip;
     
 }
 

@@ -14,12 +14,7 @@ int science;
 int goldInit;
 int buildInit;
 int scienceInit;
-int interceptorBuildCost;
-int cruiserBuildCost;
-int dreadnoughtBuildCost;
-int stationBuildCost;
 int influence;
-
 int i=0;
 NSArray *resources;
 

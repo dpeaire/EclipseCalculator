@@ -201,6 +201,9 @@
                                 <state key="normal" title="Station">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="buildStation" destination="gd8-BS-t21" eventType="touchUpInside" id="QkL-Im-f3A"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAY-g0-czr">
                                 <rect key="frame" x="222" y="247" width="50" height="30"/>
@@ -230,6 +233,7 @@
                         <outlet property="pink" destination="6xF-qZ-R7P" id="5yH-iK-iu7"/>
                         <outlet property="pinkNumber" destination="gsL-Pu-Fuq" id="WxD-IU-tjV"/>
                         <outlet property="pinkResource" destination="13W-YP-QH6" id="9md-Bv-cNZ"/>
+                        <outlet property="stationBuild" destination="gdp-gM-fU9" id="gM0-Cv-GZr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mod-ou-zE9" userLabel="First Responder" sceneMemberID="firstResponder"/>
