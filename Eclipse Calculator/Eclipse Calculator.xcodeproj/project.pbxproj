@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7126CD771BF56EBA009EFFE5 /* Humans.m in Sources */ = {isa = PBXBuildFile; fileRef = 7126CD761BF56EBA009EFFE5 /* Humans.m */; };
+		715C33791BF50DCD003D1B56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C33781BF50DCD003D1B56 /* main.m */; };
+		715C337C1BF50DCD003D1B56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C337B1BF50DCD003D1B56 /* AppDelegate.m */; };
+		715C337F1BF50DCD003D1B56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C337E1BF50DCD003D1B56 /* ViewController.m */; };
+		715C33821BF50DCD003D1B56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715C33801BF50DCD003D1B56 /* Main.storyboard */; };
+		715C33841BF50DCD003D1B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715C33831BF50DCD003D1B56 /* Assets.xcassets */; };
+		715C33871BF50DCD003D1B56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715C33851BF50DCD003D1B56 /* LaunchScreen.storyboard */; };
+		715C33921BF50DCE003D1B56 /* Eclipse_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C33911BF50DCE003D1B56 /* Eclipse_CalculatorTests.m */; };
+		715C339D1BF50DCE003D1B56 /* Eclipse_CalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C339C1BF50DCE003D1B56 /* Eclipse_CalculatorUITests.m */; };
+		715C33AD1BF50EF0003D1B56 /* Brown Hexagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 715C33AA1BF50EF0003D1B56 /* Brown Hexagon.png */; };
+		715C33AE1BF50EF0003D1B56 /* Orange Hexagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 715C33AB1BF50EF0003D1B56 /* Orange Hexagon.png */; };
+		715C33AF1BF50EF0003D1B56 /* Pink Hexagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 715C33AC1BF50EF0003D1B56 /* Pink Hexagon.png */; };
+		715C33B11BF510ED003D1B56 /* Eclipse Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 715C33B01BF510ED003D1B56 /* Eclipse Logo.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		715C338E1BF50DCD003D1B56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 715C336C1BF50DCC003D1B56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 715C33731BF50DCC003D1B56;
+			remoteInfo = "Eclipse Calculator";
+		};
+		715C33991BF50DCE003D1B56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 715C336C1BF50DCC003D1B56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 715C33731BF50DCC003D1B56;
+			remoteInfo = "Eclipse Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7126CD751BF56EBA009EFFE5 /* Humans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Humans.h; sourceTree = "<group>"; };
+		7126CD761BF56EBA009EFFE5 /* Humans.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Humans.m; sourceTree = "<group>"; };
+		715C33741BF50DCC003D1B56 /* Eclipse Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eclipse Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		715C33781BF50DCD003D1B56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		715C337A1BF50DCD003D1B56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		715C337B1BF50DCD003D1B56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		715C337D1BF50DCD003D1B56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		715C337E1BF50DCD003D1B56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		715C33811BF50DCD003D1B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		715C33831BF50DCD003D1B56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		715C33861BF50DCD003D1B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		715C33881BF50DCD003D1B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		715C338D1BF50DCD003D1B56 /* Eclipse CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eclipse CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		715C33911BF50DCE003D1B56 /* Eclipse_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Eclipse_CalculatorTests.m; sourceTree = "<group>"; };
+		715C33931BF50DCE003D1B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		715C33981BF50DCE003D1B56 /* Eclipse CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eclipse CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		715C339C1BF50DCE003D1B56 /* Eclipse_CalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Eclipse_CalculatorUITests.m; sourceTree = "<group>"; };
+		715C339E1BF50DCE003D1B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		715C33AA1BF50EF0003D1B56 /* Brown Hexagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brown Hexagon.png"; sourceTree = "<group>"; };
+		715C33AB1BF50EF0003D1B56 /* Orange Hexagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orange Hexagon.png"; sourceTree = "<group>"; };
+		715C33AC1BF50EF0003D1B56 /* Pink Hexagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pink Hexagon.png"; sourceTree = "<group>"; };
+		715C33B01BF510ED003D1B56 /* Eclipse Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Eclipse Logo.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		715C33711BF50DCC003D1B56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715C338A1BF50DCD003D1B56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715C33951BF50DCE003D1B56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		715C336B1BF50DCC003D1B56 = {
+			isa = PBXGroup;
+			children = (
+				715C33761BF50DCD003D1B56 /* Eclipse Calculator */,
+				715C33901BF50DCD003D1B56 /* Eclipse CalculatorTests */,
+				715C339B1BF50DCE003D1B56 /* Eclipse CalculatorUITests */,
+				715C33751BF50DCC003D1B56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		715C33751BF50DCC003D1B56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				715C33741BF50DCC003D1B56 /* Eclipse Calculator.app */,
+				715C338D1BF50DCD003D1B56 /* Eclipse CalculatorTests.xctest */,
+				715C33981BF50DCE003D1B56 /* Eclipse CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		715C33761BF50DCD003D1B56 /* Eclipse Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				715C337A1BF50DCD003D1B56 /* AppDelegate.h */,
+				715C337B1BF50DCD003D1B56 /* AppDelegate.m */,
+				715C337D1BF50DCD003D1B56 /* ViewController.h */,
+				715C337E1BF50DCD003D1B56 /* ViewController.m */,
+				7126CD751BF56EBA009EFFE5 /* Humans.h */,
+				7126CD761BF56EBA009EFFE5 /* Humans.m */,
+				715C33801BF50DCD003D1B56 /* Main.storyboard */,
+				715C33831BF50DCD003D1B56 /* Assets.xcassets */,
+				715C33851BF50DCD003D1B56 /* LaunchScreen.storyboard */,
+				715C33881BF50DCD003D1B56 /* Info.plist */,
+				715C33771BF50DCD003D1B56 /* Supporting Files */,
+			);
+			path = "Eclipse Calculator";
+			sourceTree = "<group>";
+		};
+		715C33771BF50DCD003D1B56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				715C33B01BF510ED003D1B56 /* Eclipse Logo.jpg */,
+				715C33AA1BF50EF0003D1B56 /* Brown Hexagon.png */,
+				715C33AB1BF50EF0003D1B56 /* Orange Hexagon.png */,
+				715C33AC1BF50EF0003D1B56 /* Pink Hexagon.png */,
+				715C33781BF50DCD003D1B56 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		715C33901BF50DCD003D1B56 /* Eclipse CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				715C33911BF50DCE003D1B56 /* Eclipse_CalculatorTests.m */,
+				715C33931BF50DCE003D1B56 /* Info.plist */,
+			);
+			path = "Eclipse CalculatorTests";
+			sourceTree = "<group>";
+		};
+		715C339B1BF50DCE003D1B56 /* Eclipse CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				715C339C1BF50DCE003D1B56 /* Eclipse_CalculatorUITests.m */,
+				715C339E1BF50DCE003D1B56 /* Info.plist */,
+			);
+			path = "Eclipse CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		715C33731BF50DCC003D1B56 /* Eclipse Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715C33A11BF50DCE003D1B56 /* Build configuration list for PBXNativeTarget "Eclipse Calculator" */;
+			buildPhases = (
+				715C33701BF50DCC003D1B56 /* Sources */,
+				715C33711BF50DCC003D1B56 /* Frameworks */,
+				715C33721BF50DCC003D1B56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eclipse Calculator";
+			productName = "Eclipse Calculator";
+			productReference = 715C33741BF50DCC003D1B56 /* Eclipse Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		715C338C1BF50DCD003D1B56 /* Eclipse CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715C33A41BF50DCE003D1B56 /* Build configuration list for PBXNativeTarget "Eclipse CalculatorTests" */;
+			buildPhases = (
+				715C33891BF50DCD003D1B56 /* Sources */,
+				715C338A1BF50DCD003D1B56 /* Frameworks */,
+				715C338B1BF50DCD003D1B56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				715C338F1BF50DCD003D1B56 /* PBXTargetDependency */,
+			);
+			name = "Eclipse CalculatorTests";
+			productName = "Eclipse CalculatorTests";
+			productReference = 715C338D1BF50DCD003D1B56 /* Eclipse CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		715C33971BF50DCE003D1B56 /* Eclipse CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715C33A71BF50DCE003D1B56 /* Build configuration list for PBXNativeTarget "Eclipse CalculatorUITests" */;
+			buildPhases = (
+				715C33941BF50DCE003D1B56 /* Sources */,
+				715C33951BF50DCE003D1B56 /* Frameworks */,
+				715C33961BF50DCE003D1B56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				715C339A1BF50DCE003D1B56 /* PBXTargetDependency */,
+			);
+			name = "Eclipse CalculatorUITests";
+			productName = "Eclipse CalculatorUITests";
+			productReference = 715C33981BF50DCE003D1B56 /* Eclipse CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		715C336C1BF50DCC003D1B56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Peaire;
+				TargetAttributes = {
+					715C33731BF50DCC003D1B56 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 6H8T2CY3EQ;
+					};
+					715C338C1BF50DCD003D1B56 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 6H8T2CY3EQ;
+						TestTargetID = 715C33731BF50DCC003D1B56;
+					};
+					715C33971BF50DCE003D1B56 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 6H8T2CY3EQ;
+						TestTargetID = 715C33731BF50DCC003D1B56;
+					};
+				};
+			};
+			buildConfigurationList = 715C336F1BF50DCC003D1B56 /* Build configuration list for PBXProject "Eclipse Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 715C336B1BF50DCC003D1B56;
+			productRefGroup = 715C33751BF50DCC003D1B56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				715C33731BF50DCC003D1B56 /* Eclipse Calculator */,
+				715C338C1BF50DCD003D1B56 /* Eclipse CalculatorTests */,
+				715C33971BF50DCE003D1B56 /* Eclipse CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		715C33721BF50DCC003D1B56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715C33871BF50DCD003D1B56 /* LaunchScreen.storyboard in Resources */,
+				715C33841BF50DCD003D1B56 /* Assets.xcassets in Resources */,
+				715C33AD1BF50EF0003D1B56 /* Brown Hexagon.png in Resources */,
+				715C33B11BF510ED003D1B56 /* Eclipse Logo.jpg in Resources */,
+				715C33821BF50DCD003D1B56 /* Main.storyboard in Resources */,
+				715C33AE1BF50EF0003D1B56 /* Orange Hexagon.png in Resources */,
+				715C33AF1BF50EF0003D1B56 /* Pink Hexagon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715C338B1BF50DCD003D1B56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715C33961BF50DCE003D1B56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		715C33701BF50DCC003D1B56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715C337F1BF50DCD003D1B56 /* ViewController.m in Sources */,
+				715C337C1BF50DCD003D1B56 /* AppDelegate.m in Sources */,
+				715C33791BF50DCD003D1B56 /* main.m in Sources */,
+				7126CD771BF56EBA009EFFE5 /* Humans.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715C33891BF50DCD003D1B56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715C33921BF50DCE003D1B56 /* Eclipse_CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715C33941BF50DCE003D1B56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715C339D1BF50DCE003D1B56 /* Eclipse_CalculatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		715C338F1BF50DCD003D1B56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 715C33731BF50DCC003D1B56 /* Eclipse Calculator */;
+			targetProxy = 715C338E1BF50DCD003D1B56 /* PBXContainerItemProxy */;
+		};
+		715C339A1BF50DCE003D1B56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 715C33731BF50DCC003D1B56 /* Eclipse Calculator */;
+			targetProxy = 715C33991BF50DCE003D1B56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		715C33801BF50DCD003D1B56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715C33811BF50DCD003D1B56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		715C33851BF50DCD003D1B56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715C33861BF50DCD003D1B56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		715C339F1BF50DCE003D1B56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		715C33A01BF50DCE003D1B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		715C33A21BF50DCE003D1B56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Eclipse Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Peaire.Eclipse-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		715C33A31BF50DCE003D1B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Eclipse Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Peaire.Eclipse-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		715C33A51BF50DCE003D1B56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Eclipse CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Peaire.Eclipse-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eclipse Calculator.app/Eclipse Calculator";
+			};
+			name = Debug;
+		};
+		715C33A61BF50DCE003D1B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Eclipse CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Peaire.Eclipse-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eclipse Calculator.app/Eclipse Calculator";
+			};
+			name = Release;
+		};
+		715C33A81BF50DCE003D1B56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Eclipse CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Peaire.Eclipse-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Eclipse Calculator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		715C33A91BF50DCE003D1B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Eclipse CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Peaire.Eclipse-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Eclipse Calculator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		715C336F1BF50DCC003D1B56 /* Build configuration list for PBXProject "Eclipse Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715C339F1BF50DCE003D1B56 /* Debug */,
+				715C33A01BF50DCE003D1B56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715C33A11BF50DCE003D1B56 /* Build configuration list for PBXNativeTarget "Eclipse Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715C33A21BF50DCE003D1B56 /* Debug */,
+				715C33A31BF50DCE003D1B56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715C33A41BF50DCE003D1B56 /* Build configuration list for PBXNativeTarget "Eclipse CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715C33A51BF50DCE003D1B56 /* Debug */,
+				715C33A61BF50DCE003D1B56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715C33A71BF50DCE003D1B56 /* Build configuration list for PBXNativeTarget "Eclipse CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715C33A81BF50DCE003D1B56 /* Debug */,
+				715C33A91BF50DCE003D1B56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 715C336C1BF50DCC003D1B56 /* Project object */;
+}
