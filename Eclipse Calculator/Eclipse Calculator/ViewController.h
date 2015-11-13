@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+UIPickerView *picker;
+
+@interface ViewController : UIViewController <UIPickerViewDataSource,UIPickerViewDelegate>
+
+//-(IBAction)Launch:(id)sender;
 
 
 @end

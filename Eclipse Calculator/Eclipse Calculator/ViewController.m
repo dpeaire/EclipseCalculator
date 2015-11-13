@@ -35,7 +35,7 @@
     NSString * title = nil;
     switch(row) {
         case 0:
-            title = @"Human";
+            title = @"Terran Federation";
             break;
         case 1:
             title = @"Planta";
@@ -60,9 +60,17 @@
     return title;
 }
 
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+
+
+
+
 
 @end

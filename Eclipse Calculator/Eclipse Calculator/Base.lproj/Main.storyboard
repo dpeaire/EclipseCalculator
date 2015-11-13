@@ -42,7 +42,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="gd8-BS-t21" kind="modal" id="Aju-CO-OJZ"/>
+                                    <segue destination="gd8-BS-t21" kind="modal" id="JJX-Yz-VLQ"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Eclipse Logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zgG-Z8-aZo">
@@ -175,14 +175,55 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDE-wx-4Bj">
+                                <rect key="frame" x="73" y="247" width="76" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Interceptor">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buildInterceptor" destination="gd8-BS-t21" eventType="touchUpInside" id="hKL-sy-zEz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFa-s1-rD3">
+                                <rect key="frame" x="312" y="247" width="90" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Dreadnought">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buildDreadnought" destination="gd8-BS-t21" eventType="touchUpInside" id="E5S-p9-ugf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdp-gM-fU9">
+                                <rect key="frame" x="466" y="247" width="49" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Station">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAY-g0-czr">
+                                <rect key="frame" x="222" y="247" width="50" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Cruiser">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buildCruiser" destination="gd8-BS-t21" eventType="touchUpInside" id="a3K-Hr-1nC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.0" green="0.32220523309999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="VP7-eb-8w6"/>
                     <connections>
                         <outlet property="brown" destination="IXa-Y6-Kaq" id="e3B-A6-1GH"/>
                         <outlet property="brownNumber" destination="qVt-qx-ifP" id="taZ-5B-6d9"/>
                         <outlet property="brownResource" destination="19G-mO-cGF" id="1M2-QO-Jeg"/>
+                        <outlet property="cruiserBuild" destination="tAY-g0-czr" id="Slo-7s-01s"/>
+                        <outlet property="dreadnoughtBuild" destination="fFa-s1-rD3" id="ddI-dc-p9P"/>
+                        <outlet property="interceptorBuild" destination="LDE-wx-4Bj" id="Rhr-GL-HbX"/>
                         <outlet property="orange" destination="Mqb-ie-PZx" id="vlL-t5-I3m"/>
                         <outlet property="orangeNumber" destination="zdA-af-3pv" id="y5D-ys-60I"/>
                         <outlet property="orangeResource" destination="quQ-aY-cHj" id="DKF-pG-akb"/>

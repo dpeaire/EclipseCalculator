@@ -14,10 +14,17 @@ int science;
 int goldInit;
 int buildInit;
 int scienceInit;
+int interceptorBuildCost;
+int cruiserBuildCost;
+int dreadnoughtBuildCost;
+int stationBuildCost;
+int influence;
+
 int i=0;
 NSArray *resources;
 
-@interface Humans : UIViewController
+
+@interface Humans : UIViewController <UIAlertViewDelegate>
 
 {
     IBOutlet UIButton *pink;
@@ -29,6 +36,10 @@ NSArray *resources;
     IBOutlet UILabel *pinkResource;
     IBOutlet UILabel *orangeResource;
     IBOutlet UILabel *brownResource;
+    IBOutlet UIButton *interceptorBuild;
+    IBOutlet UIButton *cruiserBuild;
+    IBOutlet UIButton *dreadnoughtBuild;
+    IBOutlet UIButton *stationBuild;
     
 
 
@@ -40,13 +51,14 @@ NSArray *resources;
 
 
 
--(void)buildInterceptor;
--(void)buildCruiser;
--(void)buildDreadnought;
--(void)buildStation;
+-(IBAction)buildInterceptor;
+-(void)buildAlert;
+-(IBAction)buildCruiser;
+-(IBAction)buildDreadnought;
+-(IBAction)buildStation;
 
 
 
--(void)endTurn;
+-(IBAction)endTurn;
 
 @end
