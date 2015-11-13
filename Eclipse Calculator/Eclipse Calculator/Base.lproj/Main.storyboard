@@ -101,7 +101,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="resourceAddition" destination="gd8-BS-t21" eventType="touchUpInside" id="Tgj-Xi-TWy"/>
+                                    <action selector="resourceAdditionPink" destination="gd8-BS-t21" eventType="touchUpInside" id="iZB-eS-u6F"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mqb-ie-PZx">
@@ -111,6 +111,9 @@
                                 <state key="normal" title="Button" image="Orange Hexagon.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="resourceAdditionOrange" destination="gd8-BS-t21" eventType="touchUpInside" id="DOg-kF-ISE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXa-Y6-Kaq">
                                 <rect key="frame" x="383" y="88" width="56" height="56"/>
@@ -119,6 +122,9 @@
                                 <state key="normal" title="Button" image="Brown Hexagon.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="resourceAdditionBrown" destination="gd8-BS-t21" eventType="touchUpInside" id="IyV-v8-oup"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13W-YP-QH6">
                                 <rect key="frame" x="164" y="152" width="51" height="21"/>

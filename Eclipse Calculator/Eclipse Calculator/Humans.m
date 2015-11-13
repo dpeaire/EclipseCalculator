@@ -34,12 +34,36 @@
 
 }
 
--(IBAction)resourceAddition
+-(IBAction)resourceAdditionPink
+{
+   
+    i++;
+    if(i>=[resources count]){i=0;}
+    
+        pinkNumber.text =[NSString stringWithFormat: @"%@",[resources objectAtIndex:i]];
+    
+    
+}
+
+-(IBAction)resourceAdditionOrange
 {
     
-    for (int i =0; i<10; i++) {
-        pinkNumber.text =[NSString stringWithFormat: @"%@",[resources objectAtIndex:i]];
-    }
+    i++;
+    if(i>=[resources count]){i=0;}
+    
+    orangeNumber.text =[NSString stringWithFormat: @"%@",[resources objectAtIndex:i]];
+    
+    
+}
+
+-(IBAction)resourceAdditionBrown
+{
+    
+    i++;
+    if(i>=[resources count]){i=0;}
+    
+    brownNumber.text =[NSString stringWithFormat: @"%@",[resources objectAtIndex:i]];
+    
     
 }
 

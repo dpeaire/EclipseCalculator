@@ -14,6 +14,7 @@ int science;
 int goldInit;
 int buildInit;
 int scienceInit;
+int i=0;
 NSArray *resources;
 
 @interface Humans : UIViewController
@@ -33,7 +34,10 @@ NSArray *resources;
 
 }
 
--(IBAction)resourceAddition;
+-(IBAction)resourceAdditionPink;
+-(IBAction)resourceAdditionOrange;
+-(IBAction)resourceAdditionBrown;
+
 
 
 -(void)buildInterceptor;
