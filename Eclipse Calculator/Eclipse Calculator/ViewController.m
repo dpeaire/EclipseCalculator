@@ -35,25 +35,32 @@
     NSString * title = nil;
     switch(row) {
         case 0:
-            title = @"Terran Federation";
+            title = @"Humans";
+            race =0;
             break;
         case 1:
             title = @"Planta";
+            race =1;
             break;
         case 2:
             title = @"Draco";
+            race =2;
             break;
         case 3:
             title = @"Orion";
+            race =3;
             break;
         case 4:
             title = @"Hydran Progress";
+            race =4;
             break;
         case 5:
             title = @"Mechanema";
+            race =5;
             break;
         case 6:
             title = @"Epsilon Eridani";
+            race =6;
             break;
             
     }

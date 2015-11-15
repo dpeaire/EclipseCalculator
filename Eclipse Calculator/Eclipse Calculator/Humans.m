@@ -15,19 +15,42 @@
 @implementation Humans
 
 - (void)viewDidLoad {
-    
-    goldInit = 7;
-    buildInit = 7;
-    scienceInit = 7;
-    gold= goldInit;
-    build = buildInit;
-    science = scienceInit;
+   
+    switch () {
+        case 0:
+            gold = 3;
+            build = 3;
+            science = 3;
+            interceptorCost = 3;
+            cruiserCost = 5;
+            dreadnoughCost = 8;
+            stationCost = 3;
+            break;
+       case 1:
+            gold = 1;
+            build = 1;
+            science = 1;
+            interceptorCost = 3;
+            cruiserCost = 5;
+            dreadnoughCost = 8;
+            stationCost = 3;
+            break;
+            
+    }
+    gold= 7;
+    build = 7;
+    science = 7;
+    interceptorCost = 3;
+    cruiserCost = 5;
+    dreadnoughCost = 8;
+    stationCost = 3;
+
     resources = @[@2,@3,@4,@6,@8,@10,@12,@15,@18,@21,@24,@28];
 
     
-    pinkResource.text = [NSString stringWithFormat:@"%i", scienceInit];
-    orangeResource.text = [NSString stringWithFormat:@"%i", goldInit];
-    brownResource.text = [NSString stringWithFormat:@"%i", buildInit];
+    pinkResource.text = [NSString stringWithFormat:@"%i", science];
+    orangeResource.text = [NSString stringWithFormat:@"%i", gold];
+    brownResource.text = [NSString stringWithFormat:@"%i", build];
     
     pinkNumber.text = [NSString stringWithFormat:@"%@", [resources objectAtIndex:0]];
     orangeNumber.text = [NSString stringWithFormat:@"%@",[resources objectAtIndex:0]];
@@ -93,7 +116,7 @@
 -(IBAction)buildInterceptor
 {
     
-    int buildShip = build-3;
+    int buildShip = build-interceptorCost;
     if (build<3){[self buildAlert];return;}
     brownResource.text = [NSString stringWithFormat:@"%i",buildShip];
     build=buildShip;
@@ -104,7 +127,7 @@
 -(IBAction)buildCruiser
 {
     
-    int buildShip = build-5;
+    int buildShip = build-cruiserCost;
     if (build<5){[self buildAlert];return;}
     brownResource.text = [NSString stringWithFormat:@"%i",buildShip];
     build=buildShip;
@@ -115,7 +138,7 @@
 -(IBAction)buildDreadnought
 {
     
-    int buildShip = build-8;
+    int buildShip = build-dreadnoughCost;
     if (build<8){[self buildAlert];return;}
     brownResource.text = [NSString stringWithFormat:@"%i",buildShip];
     build=buildShip;
@@ -125,7 +148,7 @@
 
 -(IBAction)buildStation
 {
-    int buildShip = build-3;
+    int buildShip = build-stationCost;
     if (build<3){[self buildAlert];return;}
     brownResource.text = [NSString stringWithFormat:@"%i",buildShip];
     build=buildShip;

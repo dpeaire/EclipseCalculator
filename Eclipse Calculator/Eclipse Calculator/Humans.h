@@ -11,11 +11,12 @@
 int gold;
 int build;
 int science;
-int goldInit;
-int buildInit;
-int scienceInit;
 int influence;
-int i=0;
+int interceptorCost;
+int cruiserCost;
+int dreadnoughCost;
+int stationCost;
+int i;
 NSArray *resources;
 
 

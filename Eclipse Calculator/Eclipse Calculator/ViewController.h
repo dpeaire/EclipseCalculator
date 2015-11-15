@@ -12,8 +12,9 @@ UIPickerView *picker;
 
 @interface ViewController : UIViewController <UIPickerViewDataSource,UIPickerViewDelegate>
 
-//-(IBAction)Launch:(id)sender;
+
 
 
 @end
 
+NSInteger race;
