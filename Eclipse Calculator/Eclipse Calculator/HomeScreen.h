@@ -8,13 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
+
 UIPickerView *picker;
 
-@interface ViewController : UIViewController <UIPickerViewDataSource,UIPickerViewDelegate>
+
+@interface HomeScreen : UIViewController <UIPickerViewDataSource,UIPickerViewDelegate>
+
+extern NSInteger race;
+
 
 
 
 
 @end
 
-NSInteger race;
+
+
+

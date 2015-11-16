@@ -18,6 +18,7 @@ int dreadnoughCost;
 int stationCost;
 int i;
 NSArray *resources;
+NSInteger raceSelection;
 
 
 @interface Humans : UIViewController <UIAlertViewDelegate>
@@ -36,10 +37,8 @@ NSArray *resources;
     IBOutlet UIButton *cruiserBuild;
     IBOutlet UIButton *dreadnoughtBuild;
     IBOutlet UIButton *stationBuild;
-    
-
-
 }
+
 
 -(IBAction)resourceAdditionPink;
 -(IBAction)resourceAdditionOrange;

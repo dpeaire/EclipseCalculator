@@ -7,44 +7,35 @@
 //
 
 #import "Humans.h"
+#import "HomeScreen.h"
 
-@interface Humans () <UIAlertViewDelegate>
-
-@end
-
+NSInteger race;
 @implementation Humans
 
-- (void)viewDidLoad {
-   
-    switch () {
-        case 0:
-            gold = 3;
-            build = 3;
-            science = 3;
-            interceptorCost = 3;
-            cruiserCost = 5;
-            dreadnoughCost = 8;
-            stationCost = 3;
-            break;
-       case 1:
-            gold = 1;
-            build = 1;
-            science = 1;
-            interceptorCost = 3;
-            cruiserCost = 5;
-            dreadnoughCost = 8;
-            stationCost = 3;
-            break;
-            
-    }
-    gold= 7;
-    build = 7;
-    science = 7;
-    interceptorCost = 3;
-    cruiserCost = 5;
-    dreadnoughCost = 8;
-    stationCost = 3;
 
+- (void)viewDidLoad {
+    
+    switch (race) {
+    case 0:
+        gold = 3;
+        build = 3;
+        science = 3;
+        interceptorCost = 3;
+        cruiserCost = 5;
+        dreadnoughCost = 8;
+        stationCost = 3;
+        break;
+    case 1:
+        gold = 7;
+        build = 7;
+        science = 7;
+        interceptorCost = 3;
+        cruiserCost = 5;
+        dreadnoughCost = 8;
+        stationCost = 3;
+        break;
+        
+    }
     resources = @[@2,@3,@4,@6,@8,@10,@12,@15,@18,@21,@24,@28];
 
     
@@ -85,8 +76,6 @@
     if(i>=[resources count]){i=0;}
     
         pinkNumber.text =[NSString stringWithFormat: @"%@",[resources objectAtIndex:i]];
-    
-    
 }
 
 -(IBAction)resourceAdditionOrange
@@ -96,8 +85,6 @@
     if(i>=[resources count]){i=0;}
     
     orangeNumber.text =[NSString stringWithFormat: @"%@",[resources objectAtIndex:i]];
-    
-    
 }
 
 -(IBAction)resourceAdditionBrown
@@ -107,8 +94,6 @@
     if(i>=[resources count]){i=0;}
     
     brownNumber.text =[NSString stringWithFormat: @"%@",[resources objectAtIndex:i]];
-    
-    
 }
 
 
@@ -120,8 +105,6 @@
     if (build<3){[self buildAlert];return;}
     brownResource.text = [NSString stringWithFormat:@"%i",buildShip];
     build=buildShip;
-    
-    
 }
 
 -(IBAction)buildCruiser
@@ -131,8 +114,6 @@
     if (build<5){[self buildAlert];return;}
     brownResource.text = [NSString stringWithFormat:@"%i",buildShip];
     build=buildShip;
-    
-    
 }
 
 -(IBAction)buildDreadnought
@@ -142,8 +123,6 @@
     if (build<8){[self buildAlert];return;}
     brownResource.text = [NSString stringWithFormat:@"%i",buildShip];
     build=buildShip;
-    
-    
 }
 
 -(IBAction)buildStation
@@ -152,6 +131,10 @@
     if (build<3){[self buildAlert];return;}
     brownResource.text = [NSString stringWithFormat:@"%i",buildShip];
     build=buildShip;
+}
+
+-(IBAction)endTurn
+{
     
 }
 

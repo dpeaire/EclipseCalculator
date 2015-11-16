@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7126CD771BF56EBA009EFFE5 /* Humans.m in Sources */ = {isa = PBXBuildFile; fileRef = 7126CD761BF56EBA009EFFE5 /* Humans.m */; };
-		715C33791BF50DCD003D1B56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C33781BF50DCD003D1B56 /* main.m */; };
-		715C337C1BF50DCD003D1B56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C337B1BF50DCD003D1B56 /* AppDelegate.m */; };
-		715C337F1BF50DCD003D1B56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C337E1BF50DCD003D1B56 /* ViewController.m */; };
 		715C33821BF50DCD003D1B56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715C33801BF50DCD003D1B56 /* Main.storyboard */; };
 		715C33841BF50DCD003D1B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715C33831BF50DCD003D1B56 /* Assets.xcassets */; };
 		715C33871BF50DCD003D1B56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715C33851BF50DCD003D1B56 /* LaunchScreen.storyboard */; };
@@ -20,6 +16,10 @@
 		715C33AE1BF50EF0003D1B56 /* Orange Hexagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 715C33AB1BF50EF0003D1B56 /* Orange Hexagon.png */; };
 		715C33AF1BF50EF0003D1B56 /* Pink Hexagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 715C33AC1BF50EF0003D1B56 /* Pink Hexagon.png */; };
 		715C33B11BF510ED003D1B56 /* Eclipse Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 715C33B01BF510ED003D1B56 /* Eclipse Logo.jpg */; };
+		71FC8A4B1BF97D0200304A99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C337B1BF50DCD003D1B56 /* AppDelegate.m */; };
+		71FC8A4C1BF97D0200304A99 /* HomeScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C337E1BF50DCD003D1B56 /* HomeScreen.m */; };
+		71FC8A4D1BF97D0200304A99 /* Humans.m in Sources */ = {isa = PBXBuildFile; fileRef = 7126CD761BF56EBA009EFFE5 /* Humans.m */; };
+		71FC8A4E1BF97D0200304A99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C33781BF50DCD003D1B56 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +46,8 @@
 		715C33781BF50DCD003D1B56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		715C337A1BF50DCD003D1B56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		715C337B1BF50DCD003D1B56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		715C337D1BF50DCD003D1B56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		715C337E1BF50DCD003D1B56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		715C337D1BF50DCD003D1B56 /* HomeScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeScreen.h; sourceTree = "<group>"; };
+		715C337E1BF50DCD003D1B56 /* HomeScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeScreen.m; sourceTree = "<group>"; };
 		715C33811BF50DCD003D1B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		715C33831BF50DCD003D1B56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		715C33861BF50DCD003D1B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -114,8 +114,8 @@
 			children = (
 				715C337A1BF50DCD003D1B56 /* AppDelegate.h */,
 				715C337B1BF50DCD003D1B56 /* AppDelegate.m */,
-				715C337D1BF50DCD003D1B56 /* ViewController.h */,
-				715C337E1BF50DCD003D1B56 /* ViewController.m */,
+				715C337D1BF50DCD003D1B56 /* HomeScreen.h */,
+				715C337E1BF50DCD003D1B56 /* HomeScreen.m */,
 				7126CD751BF56EBA009EFFE5 /* Humans.h */,
 				7126CD761BF56EBA009EFFE5 /* Humans.m */,
 				715C33801BF50DCD003D1B56 /* Main.storyboard */,
@@ -294,10 +294,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				715C337F1BF50DCD003D1B56 /* ViewController.m in Sources */,
-				715C337C1BF50DCD003D1B56 /* AppDelegate.m in Sources */,
-				715C33791BF50DCD003D1B56 /* main.m in Sources */,
-				7126CD771BF56EBA009EFFE5 /* Humans.m in Sources */,
+				71FC8A4B1BF97D0200304A99 /* AppDelegate.m in Sources */,
+				71FC8A4C1BF97D0200304A99 /* HomeScreen.m in Sources */,
+				71FC8A4D1BF97D0200304A99 /* Humans.m in Sources */,
+				71FC8A4E1BF97D0200304A99 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +376,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -419,7 +419,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -442,6 +442,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Peaire.Eclipse-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,6 +454,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Peaire.Eclipse-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

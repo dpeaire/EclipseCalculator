@@ -6,13 +6,14 @@
 //  Copyright © 2015 Peaire. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HomeScreen.h"
 
-@interface ViewController () <UIPickerViewDataSource,UIPickerViewDelegate>
+@interface HomeScreen() <UIPickerViewDataSource,UIPickerViewDelegate>
 
 @end
 
-@implementation ViewController
+
+@implementation HomeScreen
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -32,40 +33,40 @@
 }
 
 - (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
-    NSString * title = nil;
+     NSString * title;
     switch(row) {
         case 0:
             title = @"Humans";
-            race =0;
+            race = 0;
             break;
         case 1:
             title = @"Planta";
-            race =1;
+            race = 1;
             break;
         case 2:
             title = @"Draco";
-            race =2;
             break;
         case 3:
             title = @"Orion";
-            race =3;
             break;
         case 4:
-            title = @"Hydran Progress";
-            race =4;
+            title = @"Hydran";
             break;
         case 5:
             title = @"Mechanema";
-            race =5;
             break;
         case 6:
-            title = @"Epsilon Eridani";
-            race =6;
+            title = @"Epsilon";
             break;
             
     }
+
     return title;
+    
 }
+
+
+
 
 
 
